@@ -1,0 +1,57 @@
+([\u4e00-\u9fa5]{1})\$
+$1 $
+
+
+\$([\u4e00-\u9fa5]{1})
+$ $1
+
+
+
+
+([\u4e00-\u9fa5]+)([A-Za-z0-9]+)([\u4e00-\u9fa5]+)
+$1 $2 $3
+
+([\u4e00-\u9fa5]+)([A-Za-z0-9]+)
+$1 $2
+
+[,]([\u4e00-\u9fa5]+)
+，$1
+
+[;]([\u4e00-\u9fa5]+)
+；$1
+
+([^0-9])[.]([\u4e00-\u9fa5]+)
+$1。$2
+
+
+
+\textsf{G}
+
+
+{ width=50% }
+
+<br />
+
+
+
+
+
+~(\S+?)~
+ $1 
+
+
+
+
+将 ipython 转换为 markdown
+
+jupyter nbconvert --to markdown notebook.ipynb
+
+
+
+
+\[(\S*)\]\(\S*\)
+$1
+
+
+
+![](http://images.iterate.site/blog/image//180615/h8Lf4eHgBH.png?imageslim){ width=55% }

@@ -1,0 +1,50 @@
+---
+title: abstract
+toc: true
+date: 2019-06-30
+---
+抽象对象层
+**********
+
+本章中的函数与 Python对象交互，无论其类型，或具有广泛类的对象类型（例
+如，所有数值类型，或所有序列类型）。当使用对象类型并不适用时，他们会产
+生一个 Python 异常。
+
+这些函数是不可能用于未正确初始化的对象的，如一个列表对象被
+"PyList_New()" 创建，但其中的项目没有被设置为一些非``NULL``的值。
+
+* Object Protocol
+
+* 数字协议
+
+* 序列协议
+
+* Mapping Protocol
+
+* 迭代器协议
+
+* 缓冲协议
+
+  * 缓冲区结构
+
+  * Buffer request types
+
+    * request-independent fields
+
+    * readonly, format
+
+    * shape, strides, suboffsets
+
+    * 连续性的请求
+
+    * compound requests
+
+  * 复杂数组
+
+    * NumPy-style: shape and strides
+
+    * PIL-style: shape, strides and suboffsets
+
+  * Buffer-related functions
+
+* Old Buffer Protocol

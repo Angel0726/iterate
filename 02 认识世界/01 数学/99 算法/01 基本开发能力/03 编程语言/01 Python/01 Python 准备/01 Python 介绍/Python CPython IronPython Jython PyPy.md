@@ -1,0 +1,18 @@
+---
+title: Python CPython IronPython Jython PyPy
+toc: true
+date: 2018-06-24 07:25:48
+---
+
+
+# 可以补充进来的
+
+- 到底 Python CPython IronPython Jython PyPy 有什么区别？
+- 一直非常想知道，我们现在用的 Python 到底是那个 Python？为什么会有这么多种？都是在哪些场合上使用的？都有哪些特点？一定要使用不同版本的 Python 吗？
+
+
+
+# Python CPython IronPython Jython PyPy
+
+
+警告：有些用户可能会对如 IronPython、Jython、PyPy之类的 Python 实现感兴趣。目前我们只需要使用基于 C 的标准 Python 解释器（也就是 CPython）。<font color=red>我们现在使用的 Python 就是 CPython吗？</font>
